@@ -2,9 +2,27 @@
 
 ## Usage
 
+### Web
+
 ```bash
 flutter build web
+```
+
+### Android
+
+```bash
 flutter build apk  # `./build/app/outputs/flutter-apk/app-release.apk`
+```
+
+### iOS
+
+1. Open project in xcode via `xcworkspace`
+2. Set `Team` in `Runner > Signing & Capabilities` to allow app signing.
+
+```bash
+flutter build ios-framework
+flutter build ios
+flutter install
 ```
 
 ---
