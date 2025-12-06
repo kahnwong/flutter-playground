@@ -1,4 +1,13 @@
-# playground
+# flutter-playground
+
+## Usage
+
+```bash
+flutter build web
+flutter build apk  # `./build/app/outputs/flutter-apk/app-release.apk`
+```
+
+---
 
 A new Flutter project.
 
